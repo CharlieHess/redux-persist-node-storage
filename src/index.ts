@@ -1,4 +1,4 @@
-import { LocalStorage } from 'node-localstorage'
+import { LocalStorage } from 'node-localstorage-fsync'
 
 export class AsyncNodeStorage {
   private localStorage: LocalStorage

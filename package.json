@@ -1,6 +1,6 @@
 {
-  "name": "redux-persist-node-storage",
-  "version": "1.0.2",
+  "name": "redux-persist-node-storage-fsync",
+  "version": "0.0.1",
   "description": "Redux persist adaptor for Node local storage",
   "main": "./dist/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "typings": "./index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/pellejacobs/redux-persist-node-storage.git"
+    "url": "git+ssh://git@github.com/CharlieHess/redux-persist-node-storage.git#crash-safe"
   },
   "files": [
     "dist",
@@ -28,11 +28,11 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pellejacobs/redux-persist-node-storage/issues"
+    "url": "https://github.com/CharlieHess/redux-persist-node-storage/issues"
   },
-  "homepage": "https://github.com/pellejacobs/redux-persist-node-storage#readme",
+  "homepage": "https://github.com/CharlieHess/redux-persist-node-storage/tree/crash-safe",
   "dependencies": {
-    "node-localstorage": "^1.3.0"
+    "node-localstorage-fsync": "0.0.2"
   },
   "devDependencies": {
     "async": "^2.0.1",
